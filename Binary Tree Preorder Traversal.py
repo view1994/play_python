@@ -28,8 +28,6 @@ def main():
     print('\t\t',root.val)
     print('\t',root.left.val,'\t\t  ',root.right.val)
     print(' ',root.left.left.val,'   ',root.left.right.val,' ',root.right.left,'  ',root.right.right.val)
-    #root=make_a_Binary_Tree_by([7,4,None,None,None])
-    #print(root.val,root.left.val,root.right)
     print(preorder_traversal(root))
 if __name__ == '__main__':
     main()
