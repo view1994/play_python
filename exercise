@@ -1,0 +1,11 @@
+#coding:utf-8
+from __future__ import print_function
+
+
+def main():
+    num = int(raw_input("please input a decimal number:"))
+    print ('exchange to binary number is : ',end='')
+    print ('{0:b}'.format(num))
+
+if __name__ == "__main__":
+    main()
