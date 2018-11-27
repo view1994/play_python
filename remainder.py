@@ -3,4 +3,4 @@ def remainder(a,b):
     r=a-q*b
     return r
 
-print "the remainder of 17/3 is "+ str(remainder(17,3))
+print ("the remainder of 17/3 is "+ str(remainder(17,3)))
